@@ -19,7 +19,7 @@ def GetBitCoinPrices():
 
   headers = {
     	"content-type": "application/octet-stream",
-    	"X-RapidAPI-Key": "97fba30f18mshffff00dfa9e9464p1ae434jsn393c6cd9c20e",
+    	"X-RapidAPI-Key": "{KEY}",
     	"X-RapidAPI-Host": "coinranking1.p.rapidapi.com"
     }
   response = requests.get(url, headers=headers, params=querystring)
